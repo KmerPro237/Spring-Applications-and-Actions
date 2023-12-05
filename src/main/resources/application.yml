@@ -1,0 +1,6 @@
+server:
+    port: 3500
+
+spring:
+    main:
+        web-application-type: servlet
