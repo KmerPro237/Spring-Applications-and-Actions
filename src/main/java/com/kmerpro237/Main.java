@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @SpringBootApplication
 @RestController // This is a Spring stereotype annotation
 public class Main {
@@ -13,7 +15,10 @@ public class Main {
     }
 
     @GetMapping("/greetings")
-    public String greet() {
-        return "Hello Sosthene!";
+    public GreetResponse greet() {
+        return new GreetResponse("Hello" + Person.class.getName(), List.of("Ndole", "Koki"), new Person("Sosthene", 24));
     }
+
+    record Person(String name, int age) {}
+    record GreetResponse(String greetingMessage, List<String>favMeals, Person person) {}
 }
