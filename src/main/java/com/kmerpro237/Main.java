@@ -3,22 +3,27 @@ package com.kmerpro237;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @SpringBootApplication
 @RestController // This is a Spring stereotype annotation
+@RequestMapping("/api/v1/customers")
 public class Main {
+    private final CustomerRepository customerRepository;
+
+    public Main(CustomerRepository customerRepository) {
+        this.customerRepository = customerRepository;
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
 
-    @GetMapping("/greetings")
-    public GreetResponse greet() {
-        return new GreetResponse("Hello " + new Person("Sosthene", 45).name, List.of("Ndole", "Koki"), new Person("Sosthene", 24));
+    @GetMapping
+   public List<Customer> getCustomers() {
+        return customerRepository.findAll();
     }
-
-    record Person(String name, int age) {}
-    record GreetResponse(String greetingMessage, List<String>favMeals, Person person) {}
 }
