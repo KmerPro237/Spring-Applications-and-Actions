@@ -11,4 +11,10 @@
 - A servlet-container supports only the servlet API (including JSP, JSTL)
 
 ### API-Request pathway
+
 ![image](https://github.com/KmerPro237/Spring-Applications-and-Actions/assets/118595893/3fd6b687-87a8-4aff-9854-36c41f92be89)
+
+### Backend Structure
+
+![image](https://github.com/KmerPro237/Spring-Applications-and-Actions/assets/118595893/86fcd3f8-842c-48a6-9f8c-91d205732487)
+
