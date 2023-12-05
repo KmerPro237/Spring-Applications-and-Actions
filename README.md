@@ -7,7 +7,7 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Hello GitHub Actions
+# Test repo for Github Actions and Spring APIs/Applications
 
 _Create a GitHub Action and use it in a workflow._ :smile:
 
