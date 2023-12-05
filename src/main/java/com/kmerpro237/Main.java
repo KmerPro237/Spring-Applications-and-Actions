@@ -16,7 +16,7 @@ public class Main {
 
     @GetMapping("/greetings")
     public GreetResponse greet() {
-        return new GreetResponse("Hello" + Person.class.getName(), List.of("Ndole", "Koki"), new Person("Sosthene", 24));
+        return new GreetResponse("Hello " + new Person("Sosthene", 45).name, List.of("Ndole", "Koki"), new Person("Sosthene", 24));
     }
 
     record Person(String name, int age) {}
