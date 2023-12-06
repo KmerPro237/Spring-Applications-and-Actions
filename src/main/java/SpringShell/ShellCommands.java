@@ -33,6 +33,11 @@ public class ShellCommands {
         return "nslookup " + remoteServer;
     }
 
+    @ShellMethod (value = "ssh-login")
+    public void sshLogin(@ShellOption(value = "-u") boolean rememberMe){
+        log.info(format("Remember me: %s", rememberMe));
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(ShellCommands.class, args);
     }

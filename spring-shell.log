@@ -27,3 +27,6 @@
 1701868038025:nslookup -s lovalhost
 1701868049624:nslookup -s localhost
 1701868095543:nslookup localhost
+1701868557244:help
+1701868564133:ssh-login
+1701868578681:ssh-login -u
