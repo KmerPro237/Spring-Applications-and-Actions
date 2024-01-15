@@ -14,12 +14,11 @@
     <packaging>pom</packaging>
     <name>SpringApps</name>
     <description>SpringApps</description>
-    <modules>
-        <module>untitled</module>
-    </modules>
     <properties>
         <java.version>17</java.version>
         <spring-shell.version>3.1.6</spring-shell.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
 
@@ -53,6 +52,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <version>3.2.1</version>
         </dependency>
     </dependencies>
 

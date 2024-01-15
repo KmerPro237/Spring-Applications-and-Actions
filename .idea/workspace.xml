@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="252cd557-2802-4b47-be63-62d7cbdffe20" name="Changes" comment="">
+    <list default="true" id="252cd557-2802-4b47-be63-62d7cbdffe20" name="Changes" comment="Mongodb config">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongodb/MongoProject/src/main/java/SostheneMongo/MongoProject/MongoProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mongodb/MongoProject/src/main/java/SostheneMongo/MongoProject/MongoProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongodb/MongoProject/src/test/java/SostheneMongo/MongoProject/MongoProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mongodb/MongoProject/src/test/java/SostheneMongo/MongoProject/MongoProjectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
@@ -35,15 +42,15 @@
       </map>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Z7GiyhorLkoLKEKx15Su2ngH4h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,33 +61,46 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.MongoProject.executor": "Run",
+    "Maven.SpringApps.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BrokerCommands.executor": "Run",
+    "Spring Boot.MongoProjectApplication (1).executor": "Run",
+    "Spring Boot.MongoProjectApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sosthene/Documents/Studium/pppp/SpringApps",
+    "last_opened_file_path": "C:/Users/Sosthene/Documents/Studium/pppp/SpringApps/Mongodb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.14641291",
+    "project.structure.proportion": "0.11820328",
     "project.structure.side.proportion": "0.3860252",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "0bbc5df2ca6beaf0785dc5ec26ee857a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sosthene\Documents\Studium\pppp\SpringApps\Lessons" />
+      <recent name="C:\Users\Sosthene\Documents\Studium\pppp\SpringApps\Mongodb" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="springappsexamples" />
     </key>
@@ -94,9 +114,61 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BrokerCommands">
+  <component name="RunManager" selected="Spring Boot.MongoProjectApplication (1)">
+    <configuration name="SpringApps" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk-17.0.5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SpringApps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MongoProject" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Mongodb/MongoProject" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="BrokerCommands" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="SpringApps" />
@@ -104,6 +176,48 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SpringShell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoProjectApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SpringApps" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.SostheneMongo.MongoProject.MongoProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.SostheneMongo.MongoProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="SpringApps" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="SostheneMongo.MongoProject.MongoProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SostheneMongo.MongoProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,15 +252,14 @@
       </method>
     </configuration>
     <configuration name="SpringAppsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="Spring-Applications-and-Actions" />
+      <module name="SpringApps" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kmerpro237.springappsexamples.SpringAppsApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kmerpro237.springappsexamples.*" />
-          <option name="ENABLED" value="true" />
+          <option name="ENABLED" value="false" />
         </pattern>
       </extension>
       <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
@@ -174,12 +287,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SpringApps" />
+      <item itemvalue="Maven.MongoProject" />
       <item itemvalue="Spring Boot.SpringAppsApplication" />
+      <item itemvalue="Spring Boot.MongoProjectApplication" />
+      <item itemvalue="Spring Boot.MongoProjectApplication (1)" />
       <item itemvalue="Spring Boot.BrokerCommands" />
       <item itemvalue="Spring Boot.SpringAppsApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MongoProjectApplication (1)" />
+        <item itemvalue="Spring Boot.MongoProjectApplication" />
         <item itemvalue="Spring Boot.BrokerCommands" />
         <item itemvalue="Spring Boot.SpringAppsApplication (1)" />
       </list>
@@ -208,7 +327,19 @@
       <workItem from="1703601782686" duration="72000" />
       <workItem from="1703602217329" duration="648000" />
       <workItem from="1703669914013" duration="4149000" />
+      <workItem from="1705304403736" duration="5812000" />
+      <workItem from="1705312322523" duration="1568000" />
+      <workItem from="1705314081084" duration="760000" />
     </task>
+    <task id="LOCAL-00001" summary="Mongodb config">
+      <option name="closed" value="true" />
+      <created>1705305523029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705305523029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,5 +355,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SpringApps_SNAPSHOT" />
+    </ignored-roots>
+    <MESSAGE value="Mongodb config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mongodb config" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringApps$MongoProjectApplication.ic" NAME="MongoProjectApplication Coverage Results" MODIFIED="1705312876457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kmerpro237.springappsexamples.*</FILTER>
+    </SUITE>
   </component>
 </project>
