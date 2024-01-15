@@ -43,3 +43,7 @@
   #### - Fields and Values:
     
      - Each field in a document has a corresponding value. Values can be of various types, including strings, integers, floating-point numbers, arrays, and sub-documents. BSON allows for the storage of more complex data structures compared to standard JSON.
+
+  ### BSON-Datatypes
+
+  ![image](https://github.com/KmerPro237/Spring-Applications-and-Actions/assets/118595893/16a99dd1-0122-4422-b8ec-e3c9b5a2c722)
