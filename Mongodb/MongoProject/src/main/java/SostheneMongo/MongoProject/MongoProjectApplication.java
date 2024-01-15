@@ -1,4 +1,4 @@
-package main.java.SostheneMongo.MongoProject;
+package SostheneMongo.MongoProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
