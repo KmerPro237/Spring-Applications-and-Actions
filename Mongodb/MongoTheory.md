@@ -25,6 +25,9 @@
 - MongoDB stores data in a flexible, JSON-like format known as BSON (Binary JSON). BSON is a binary representation of JSON documents, and it allows MongoDB to store and retrieve data in a way that is both efficient and flexible.
 - Here's an overview of how MongoDB stores data:
 
+  ![image](https://github.com/KmerPro237/Spring-Applications-and-Actions/assets/118595893/90c936b2-ac2e-4516-a062-e51b09442bb6)
+
+
     #### - Documents:
 
      - The basic unit of data in MongoDB is a document. A document is a set of key-value pairs where values can be various data types, including strings, numbers, arrays, and nested documents. Documents in MongoDB resemble JSON objects.
