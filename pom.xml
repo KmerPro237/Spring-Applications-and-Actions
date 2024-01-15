@@ -11,8 +11,12 @@
     <groupId>com.myApp</groupId>
     <artifactId>SpringApps</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>SpringApps</name>
     <description>SpringApps</description>
+    <modules>
+        <module>untitled</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
         <spring-shell.version>3.1.6</spring-shell.version>
